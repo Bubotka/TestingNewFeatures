@@ -1,0 +1,1127 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32690 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\Unity\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker29
+-projectPath
+D:/UnityRepos/TestingNewFeatures/TestingNewFeatures
+-logFile
+Logs/AssetImportWorker29.log
+-srvPort
+5326
+Successfully changed project path to: D:/UnityRepos/TestingNewFeatures/TestingNewFeatures
+D:/UnityRepos/TestingNewFeatures/TestingNewFeatures
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24916] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1720029218 [EditorId] 1720029218 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24916] Host "[IP] 192.168.100.2 [Port] 0 [Flags] 2 [Guid] 1720029218 [EditorId] 1720029218 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4VOLOPP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path A:/Unity/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityRepos/TestingNewFeatures/TestingNewFeatures/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'A:/Unity/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/Unity/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/Unity/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003103 seconds.
+- Loaded All Assemblies, in  0.225 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 201 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 645ms
+	BeginReloadAssembly (55ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (54ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (420ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (276ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (1.3 MB). Loaded Objects now: 5681.
+Memory consumption went from 315.3 MB to 314.0 MB.
+Total: 5.210100 ms (FindLiveObjects: 0.808300 ms CreateObjectMapping: 0.192600 ms MarkObjects: 3.543100 ms  DeleteObjects: 0.663900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SuntailStartDemo.cs: aec381a898f1132f783ec8d07552bff6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WindControllerInspector.cs: ffcbd2bdec79821cb78bf315ad22b2ed -> 71e3e289a3c0d8717bab29a0f92f9680
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PigmentMapGenerator.cs: fbdc54483d8b52a888e04d58f69f8122 -> a6a9ffde88d281a59e6f5d369932be51
+  custom:scripting/monoscript/fileName/PlayerInteractions.cs: 921173c276325f37ce4acdc79878feb9 -> 
+  custom:scripting/monoscript/fileName/AudioZoneControl.cs: df95cba9bcc651e8d8d1bd7cc1997830 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: fb82b0b38d9ae1eda8f56af60b985673 -> 
+  custom:scripting/monoscript/fileName/FoliageBender.cs: bfac08b0454978e6a489b910400dbf60 -> 1ef92402b6e972a193912949375684b7
+  custom:scripting/monoscript/fileName/PigmentMapGeneratorInspector.cs: 2b454ad3232eae54649a8c019b293448 -> 202c9f1c431cacab910fb1d4e9b8f43b
+  custom:scripting/monoscript/fileName/FAE_Core.cs: 73da670256b1d14e5e0378d4e4092d3b -> bd165d49f4d69b30e5b09c6f35525b8a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LightCulling.cs: 911584665deb8f1c571d182f42cdcf48 -> 
+  custom:scripting/monoscript/fileName/MenuButton.cs: dd0a59a3ac3deebca0f453ac6d478243 -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
+  custom:scripting/monoscript/fileName/TreeTrunkShaderGUI.cs: 3fc8292017ee7e2187fd9f1ffb4c9c9a -> b60abb076434277ba946db5fa32dc297
+  custom:scripting/monoscript/fileName/Door.cs: 7ec5f4b40a73daececc253df24365e41 -> 
+  custom:scripting/monoscript/fileName/GUIHelper.cs: 23c4162653852343f2c238fdcd13aad2 -> 8457d6cca729a5e8a1936590db94ce84
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/TerrainUVUtil.cs: abcd8ca1d67d05ba7a33a3ef326fe087 -> a264e4943c1a12dabe642d10a7eecdb2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LevelSelect.cs: 38031d38f73758be2135bbf9ce4ec761 -> 
+  custom:scripting/monoscript/fileName/PhysicsObject.cs: 6773de6d542de96ce4f4d9ded076ac4c -> 
+  custom:scripting/monoscript/fileName/TreeBranchShaderGUI.cs: 90a78f49146b08fd73a7db27215ad3fd -> b2ea61446a13d7aaa6ca11b694b1a940
+  custom:scripting/monoscript/fileName/Flythrough.cs: 24d0e5f7140d82299898a3a43472a429 -> 
+  custom:scripting/monoscript/fileName/CliffAppearanceInspector.cs: d442048bbacbbf694df1cbe2724c6dff -> 31b99076f442f5e3ea5c404d3089262f
+  custom:scripting/monoscript/fileName/FoliageShaderGUI.cs: c81c7f091f91a61dfd7aec3e672c1e9b -> 2ca4e020aaa9daef3a3a3da4a4b68b2a
+  custom:scripting/monoscript/fileName/WindController.cs: 5a41b9fd94d7c3ab008ca66a11656b18 -> 3607f65d6e193fb6e70110e2d30bbc9d
+  custom:scripting/monoscript/fileName/GrassShaderGUI.cs: db98c6e1a9ec3d6c581b92fbdcf21713 -> 9f887d4c19a9c386b5443b4e4897a56d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CliffAppearance.cs: dba9da8464fbf0fdfa699d304f2ae7cb -> 4d0104a675cd7da82d185f69ea1f1f7e
+  custom:scripting/monoscript/fileName/HelpWindow.cs: 096c2eafe164f9eef7b0022d2d818251 -> bf7223ec3118aba7daf60957c40e31cf
+========================================================================
+Received Import Request.
+  Time since last request: 33589.651682 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Core
+  artifactKey: Guid(6805d9b36aaa54c4287015e9eccc1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Core using Guid(6805d9b36aaa54c4287015e9eccc1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b605856b14abeeb892c11ca17ba61c4') in 0.001533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.016599 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Core/PPP_Base_01.asset
+  artifactKey: Guid(319030a5708906f479de4cdd17756c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Core/PPP_Base_01.asset using Guid(319030a5708906f479de4cdd17756c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de664db2945223b702389b7e77a4ea9') in 0.001306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.833867 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Meadows_Post_Processing_01.asset
+  artifactKey: Guid(c32ee6e7353db864dacc0a66927ddb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Meadows_Post_Processing_01.asset using Guid(c32ee6e7353db864dacc0a66927ddb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eff7041f009466bf5eec89a405ed0ef') in 0.000877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.277409 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Scene
+  artifactKey: Guid(7f197927089fb534bb1b151361fd918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Scene using Guid(7f197927089fb534bb1b151361fd918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a0de0b236db606bb364244c0f894ce') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.513804 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Scene/Demo.unity
+  artifactKey: Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Scene/Demo.unity using Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652b10b178bd5c400ebd5848cac451b4') in 0.000330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.307556 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/Env_CloudRing_Larger_01_Smooth_03.fbx
+  artifactKey: Guid(808d3d8b5942fae4ea185a4ab8467d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/Env_CloudRing_Larger_01_Smooth_03.fbx using Guid(808d3d8b5942fae4ea185a4ab8467d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e1a459de3432583a72efb891649f8b') in 0.100976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Bush_01.fbx
+  artifactKey: Guid(e9179565111803741b6118bd8c31f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Bush_01.fbx using Guid(e9179565111803741b6118bd8c31f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d248fe97ecd63fa94ab6cee4c79e75') in 0.045635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Bld_Windmill_02.fbx
+  artifactKey: Guid(e3380c618134fde41b0a2e610220eee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Bld_Windmill_02.fbx using Guid(e3380c618134fde41b0a2e610220eee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f8834c2b774461c6e8db943ba8c68e') in 0.033920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.809512 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/_Meadow_Terrain_01.asset
+  artifactKey: Guid(a1eddcd73a70e8f48a947b8240c684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/_Meadow_Terrain_01.asset using Guid(a1eddcd73a70e8f48a947b8240c684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d60261ac49cac200dd623bdc60969f') in 0.239822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.588830 seconds.
+  path: Assets/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage
+  artifactKey: Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage using Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb944e0bd55f25b626e08bf20620d9') in 0.000786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.008808 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Bush_01.prefab
+  artifactKey: Guid(e527460148bf17741a2c17dffc4fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Bush_01.prefab using Guid(e527460148bf17741a2c17dffc4fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089e57a3cf44cd619978ab73d2810b96') in 0.019940 seconds
+Number of updated asset objects reloaded before import = 8
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Grass_Large_01.prefab
+  artifactKey: Guid(7e87f149581595d42a492f0f5ad5290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Grass_Large_01.prefab using Guid(7e87f149581595d42a492f0f5ad5290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39207490da43d3265adb4cc3655d7390') in 0.024435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Flowers_Flat_03.prefab
+  artifactKey: Guid(b79cbc8e3d7fb5b4d9ee4f9988f6ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Flowers_Flat_03.prefab using Guid(b79cbc8e3d7fb5b4d9ee4f9988f6ef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324f88c8cc53a8ae41db68c271d05382') in 0.020522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 52b8fd1d2662fd44d93074a76c3e33fc
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (1.3 MB). Loaded Objects now: 5777.
+Memory consumption went from 209.5 MB to 208.2 MB.
+Total: 3.528600 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.689800 ms  DeleteObjects: 0.356800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SuntailStartDemo.cs: aec381a898f1132f783ec8d07552bff6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WindControllerInspector.cs: ffcbd2bdec79821cb78bf315ad22b2ed -> 71e3e289a3c0d8717bab29a0f92f9680
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PigmentMapGenerator.cs: fbdc54483d8b52a888e04d58f69f8122 -> a6a9ffde88d281a59e6f5d369932be51
+  custom:scripting/monoscript/fileName/PlayerInteractions.cs: 921173c276325f37ce4acdc79878feb9 -> 
+  custom:scripting/monoscript/fileName/AudioZoneControl.cs: df95cba9bcc651e8d8d1bd7cc1997830 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: fb82b0b38d9ae1eda8f56af60b985673 -> 
+  custom:scripting/monoscript/fileName/FoliageBender.cs: bfac08b0454978e6a489b910400dbf60 -> 1ef92402b6e972a193912949375684b7
+  custom:scripting/monoscript/fileName/PigmentMapGeneratorInspector.cs: 2b454ad3232eae54649a8c019b293448 -> 202c9f1c431cacab910fb1d4e9b8f43b
+  custom:scripting/monoscript/fileName/FAE_Core.cs: 73da670256b1d14e5e0378d4e4092d3b -> bd165d49f4d69b30e5b09c6f35525b8a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LightCulling.cs: 911584665deb8f1c571d182f42cdcf48 -> 
+  custom:scripting/monoscript/fileName/MenuButton.cs: dd0a59a3ac3deebca0f453ac6d478243 -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
+  custom:scripting/monoscript/fileName/TreeTrunkShaderGUI.cs: 3fc8292017ee7e2187fd9f1ffb4c9c9a -> b60abb076434277ba946db5fa32dc297
+  custom:scripting/monoscript/fileName/Door.cs: 7ec5f4b40a73daececc253df24365e41 -> 
+  custom:scripting/monoscript/fileName/GUIHelper.cs: 23c4162653852343f2c238fdcd13aad2 -> 8457d6cca729a5e8a1936590db94ce84
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/TerrainUVUtil.cs: abcd8ca1d67d05ba7a33a3ef326fe087 -> a264e4943c1a12dabe642d10a7eecdb2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LevelSelect.cs: 38031d38f73758be2135bbf9ce4ec761 -> 
+  custom:scripting/monoscript/fileName/PhysicsObject.cs: 6773de6d542de96ce4f4d9ded076ac4c -> 
+  custom:scripting/monoscript/fileName/TreeBranchShaderGUI.cs: 90a78f49146b08fd73a7db27215ad3fd -> b2ea61446a13d7aaa6ca11b694b1a940
+  custom:scripting/monoscript/fileName/Flythrough.cs: 24d0e5f7140d82299898a3a43472a429 -> 
+  custom:scripting/monoscript/fileName/CliffAppearanceInspector.cs: d442048bbacbbf694df1cbe2724c6dff -> 31b99076f442f5e3ea5c404d3089262f
+  custom:scripting/monoscript/fileName/FoliageShaderGUI.cs: c81c7f091f91a61dfd7aec3e672c1e9b -> 2ca4e020aaa9daef3a3a3da4a4b68b2a
+  custom:scripting/monoscript/fileName/WindController.cs: 5a41b9fd94d7c3ab008ca66a11656b18 -> 3607f65d6e193fb6e70110e2d30bbc9d
+  custom:scripting/monoscript/fileName/GrassShaderGUI.cs: db98c6e1a9ec3d6c581b92fbdcf21713 -> 9f887d4c19a9c386b5443b4e4897a56d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CliffAppearance.cs: dba9da8464fbf0fdfa699d304f2ae7cb -> 4d0104a675cd7da82d185f69ea1f1f7e
+  custom:scripting/monoscript/fileName/HelpWindow.cs: 096c2eafe164f9eef7b0022d2d818251 -> bf7223ec3118aba7daf60957c40e31cf
+========================================================================
+Received Import Request.
+  Time since last request: 21.645898 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/_Meadow_Terrain_01.asset
+  artifactKey: Guid(a1eddcd73a70e8f48a947b8240c684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/_Meadow_Terrain_01.asset using Guid(a1eddcd73a70e8f48a947b8240c684f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2568c607f891e954c4b310bd75bf3d4') in 0.139146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001276 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Debris_Texture_01.png
+  artifactKey: Guid(39af9bb9671b1064eaa65a69382a8707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Debris_Texture_01.png using Guid(39af9bb9671b1064eaa65a69382a8707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb142163160e8d07ab4084a5ead039b6') in 0.004023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage
+  artifactKey: Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/URP_ExtractMe_Nature_Biomes.unitypackage using Guid(92f9cd028443b7645a5012a799b57dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc39e14989d405017edb699e0fb56dfc') in 0.003355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Normals_01.png
+  artifactKey: Guid(4ceaf480b733d9c438ca048630950959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Normals_01.png using Guid(4ceaf480b733d9c438ca048630950959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd257b11cab22d74d0c88b11807c68679') in 0.008197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.018012 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/BASEMat_01.mat
+  artifactKey: Guid(6c8508cd3dd08984b963030722be1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/BASEMat_01.mat using Guid(6c8508cd3dd08984b963030722be1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b53fef7839acf6d06796872d72bf628') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/NoWind_Mat_01.mat
+  artifactKey: Guid(cf5d83e5457e78f4991c93e26f06da1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/NoWind_Mat_01.mat using Guid(cf5d83e5457e78f4991c93e26f06da1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdde6212b96eb5c28751eefeeaea37c') in 0.000738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.482227 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Meadows_Post_Processing_01.asset
+  artifactKey: Guid(c32ee6e7353db864dacc0a66927ddb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Meadows_Post_Processing_01.asset using Guid(c32ee6e7353db864dacc0a66927ddb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bef4bced5c506d7c30e4299d0e72f3') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.107220 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(735d99336ebf680498ecbf90c3c202c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(735d99336ebf680498ecbf90c3c202c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2d9bda5e05fcd2fe147b4b3db7e092') in 0.003897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.619476 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Swamp_Marshland/FX/FX_Materials/Additive_FX.mat
+  artifactKey: Guid(9a2300260627cee4481e69ce53faf4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Swamp_Marshland/FX/FX_Materials/Additive_FX.mat using Guid(9a2300260627cee4481e69ce53faf4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f5d52de756b7de43d21a70caec7bf8') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/Biolumin_02.mat
+  artifactKey: Guid(357b35a2ad7a31542a963e5838dd315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/Biolumin_02.mat using Guid(357b35a2ad7a31542a963e5838dd315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc8a4425557e4b223aad625088dc0b1') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Swamp_Marshland/FX/FX_Materials/Bats_Mat_FX_01.mat
+  artifactKey: Guid(0890bec944562fe419619a0b896489ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Swamp_Marshland/FX/FX_Materials/Bats_Mat_FX_01.mat using Guid(0890bec944562fe419619a0b896489ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae151bd4d21b1f1ab7b494e74bbdc644') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.848195 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(8df6c78b22878164e8cd1bf5e9c0a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(8df6c78b22878164e8cd1bf5e9c0a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab74222e6cede30ad982878abc080cfd') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.895864 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer
+  artifactKey: Guid(5c46b1d6867b0e94e89edbe24f9c04ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer using Guid(5c46b1d6867b0e94e89edbe24f9c04ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8407c96da9aeaf1cf5b947706354bd27') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(da133723370c0a84991c27df77caca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(da133723370c0a84991c27df77caca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e2e12c96e098adc653eeb48ace3626') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.157369 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Core/PPP_Base_01.asset
+  artifactKey: Guid(319030a5708906f479de4cdd17756c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Core/PPP_Base_01.asset using Guid(319030a5708906f479de4cdd17756c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be237baa277f90ec269c797be834d0a') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.352815 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(427ec96f87a481a448bdfe6a102596ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer using Guid(427ec96f87a481a448bdfe6a102596ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee1767c1eb0705d93e99941234b9b2e') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.151337 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(a41de19444a9dfd4784f391676ba1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer using Guid(a41de19444a9dfd4784f391676ba1d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bcf4f6ae6ccb3a61a1cfa485957528') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.239120 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Textures/Noise_Big.tga
+  artifactKey: Guid(fa1230abc8a80ab4dbda1a39300e6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Textures/Noise_Big.tga using Guid(fa1230abc8a80ab4dbda1a39300e6ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bed23fbae826b7e6278b01886840b9') in 0.001014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.540912 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Bush_01.prefab
+  artifactKey: Guid(e527460148bf17741a2c17dffc4fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Bush_01.prefab using Guid(e527460148bf17741a2c17dffc4fb54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a4b275981bf4425cb7a2bac46484dc') in 0.001174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Grass_Large_01.prefab
+  artifactKey: Guid(7e87f149581595d42a492f0f5ad5290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Grass_Large_01.prefab using Guid(7e87f149581595d42a492f0f5ad5290b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19afa1e537544beac978eff4ea6dd831') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Flowers_Flat_02.prefab
+  artifactKey: Guid(8e2a923736393f34d9d8dc6a0d5baf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Flowers_Flat_02.prefab using Guid(8e2a923736393f34d9d8dc6a0d5baf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e576a36ac05e898d4673fd214bd5d5') in 0.001022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 46.941784 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Grass_Texture_01.png
+  artifactKey: Guid(6064e4e3e79a3a1408ee2059beaa066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Grass_Texture_01.png using Guid(6064e4e3e79a3a1408ee2059beaa066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fbe95623f7f5b20c691ed7441e5393') in 0.001488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002609 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Footpath_Tiles_Texture_01.png
+  artifactKey: Guid(22777c1e908ddd8468454da2c4ef459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Footpath_Tiles_Texture_01.png using Guid(22777c1e908ddd8468454da2c4ef459b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6070c249e8f9ae2bf1b6d9babb3b4a0a') in 0.001689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Grass_Leaves_Texture_01.png
+  artifactKey: Guid(bc583934af2b6314aa172e24cfac8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Grass_Leaves_Texture_01.png using Guid(bc583934af2b6314aa172e24cfac8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd88ec2ecb15638ee8c842d5d142ac5a') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002253 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Gravel_Texture_01.png
+  artifactKey: Guid(7a56450a53052f04e897e5449993f501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Gravel_Texture_01.png using Guid(7a56450a53052f04e897e5449993f501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acee8df7d17b052caefc168a93ce4e9') in 0.001931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Rock_Texture_01.png
+  artifactKey: Guid(8b97a5d5a589a0a4dafbdd812ae6de96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Rock_Texture_01.png using Guid(8b97a5d5a589a0a4dafbdd812ae6de96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a906a3a891c6ef6f51e5e917a5d8547') in 0.001392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Rock_Moss_Texture_01.png
+  artifactKey: Guid(3c95c9e050fd93b49ac3d588707cdfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest/Terrain/Rock_Moss_Texture_01.png using Guid(3c95c9e050fd93b49ac3d588707cdfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fe48c45733eb8667707ef081c07ce6') in 0.001409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2307.608753 seconds.
+  path: Assets/Rendering/PC.asset
+  artifactKey: Guid(52b8fd1d2662fd44d93074a76c3e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/PC.asset using Guid(52b8fd1d2662fd44d93074a76c3e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d5ee6bc877d6ecf4bff7ec49b6c9a3') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.709077 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes
+  artifactKey: Guid(2e51062debed8a3499f79935cdd1711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes using Guid(2e51062debed8a3499f79935cdd1711b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e8e9d6f570c710fe17d3bab6ef5f72') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.072805 seconds.
+  path: Assets/AssetsThirdParty/Fantasy Adventure Environment
+  artifactKey: Guid(c034a4d535e54634e9d51b874335142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Fantasy Adventure Environment using Guid(c034a4d535e54634e9d51b874335142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb77cd1c254663cf02dd58d3b64c2af') in 0.000477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.497 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.677 seconds
+Domain Reload Profiling: 1173ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (677ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.0 MB). Loaded Objects now: 5774.
+Memory consumption went from 287.7 MB to 286.7 MB.
+Total: 2.849800 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.218700 ms MarkObjects: 2.073000 ms  DeleteObjects: 0.253600 ms)
+
+Prepare: number of updated asset objects reloaded= 14
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SuntailStartDemo.cs: aec381a898f1132f783ec8d07552bff6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WindControllerInspector.cs: ffcbd2bdec79821cb78bf315ad22b2ed -> 71e3e289a3c0d8717bab29a0f92f9680
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PigmentMapGenerator.cs: fbdc54483d8b52a888e04d58f69f8122 -> a6a9ffde88d281a59e6f5d369932be51
+  custom:scripting/monoscript/fileName/PlayerInteractions.cs: 921173c276325f37ce4acdc79878feb9 -> 
+  custom:scripting/monoscript/fileName/AudioZoneControl.cs: df95cba9bcc651e8d8d1bd7cc1997830 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: fb82b0b38d9ae1eda8f56af60b985673 -> 
+  custom:scripting/monoscript/fileName/FoliageBender.cs: bfac08b0454978e6a489b910400dbf60 -> 1ef92402b6e972a193912949375684b7
+  custom:scripting/monoscript/fileName/PigmentMapGeneratorInspector.cs: 2b454ad3232eae54649a8c019b293448 -> 202c9f1c431cacab910fb1d4e9b8f43b
+  custom:scripting/monoscript/fileName/FAE_Core.cs: 73da670256b1d14e5e0378d4e4092d3b -> bd165d49f4d69b30e5b09c6f35525b8a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LightCulling.cs: 911584665deb8f1c571d182f42cdcf48 -> 
+  custom:scripting/monoscript/fileName/MenuButton.cs: dd0a59a3ac3deebca0f453ac6d478243 -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
+  custom:scripting/monoscript/fileName/TreeTrunkShaderGUI.cs: 3fc8292017ee7e2187fd9f1ffb4c9c9a -> b60abb076434277ba946db5fa32dc297
+  custom:scripting/monoscript/fileName/Door.cs: 7ec5f4b40a73daececc253df24365e41 -> 
+  custom:scripting/monoscript/fileName/GUIHelper.cs: 23c4162653852343f2c238fdcd13aad2 -> 8457d6cca729a5e8a1936590db94ce84
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/TerrainUVUtil.cs: abcd8ca1d67d05ba7a33a3ef326fe087 -> a264e4943c1a12dabe642d10a7eecdb2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LevelSelect.cs: 38031d38f73758be2135bbf9ce4ec761 -> 
+  custom:scripting/monoscript/fileName/PhysicsObject.cs: 6773de6d542de96ce4f4d9ded076ac4c -> 
+  custom:scripting/monoscript/fileName/TreeBranchShaderGUI.cs: 90a78f49146b08fd73a7db27215ad3fd -> b2ea61446a13d7aaa6ca11b694b1a940
+  custom:scripting/monoscript/fileName/Flythrough.cs: 24d0e5f7140d82299898a3a43472a429 -> 
+  custom:scripting/monoscript/fileName/CliffAppearanceInspector.cs: d442048bbacbbf694df1cbe2724c6dff -> 31b99076f442f5e3ea5c404d3089262f
+  custom:scripting/monoscript/fileName/FoliageShaderGUI.cs: c81c7f091f91a61dfd7aec3e672c1e9b -> 2ca4e020aaa9daef3a3a3da4a4b68b2a
+  custom:scripting/monoscript/fileName/WindController.cs: 5a41b9fd94d7c3ab008ca66a11656b18 -> 3607f65d6e193fb6e70110e2d30bbc9d
+  custom:scripting/monoscript/fileName/GrassShaderGUI.cs: db98c6e1a9ec3d6c581b92fbdcf21713 -> 9f887d4c19a9c386b5443b4e4897a56d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CliffAppearance.cs: dba9da8464fbf0fdfa699d304f2ae7cb -> 4d0104a675cd7da82d185f69ea1f1f7e
+  custom:scripting/monoscript/fileName/HelpWindow.cs: 096c2eafe164f9eef7b0022d2d818251 -> bf7223ec3118aba7daf60957c40e31cf
+========================================================================
+Received Import Request.
+  Time since last request: 41.357498 seconds.
+  path: Assets/AssetsThirdParty/Character
+  artifactKey: Guid(c629ee4c5fdf94d4bb486b923c55d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character using Guid(c629ee4c5fdf94d4bb486b923c55d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd29d737be13e797df5bb1076de52a65') in 0.011917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.079220 seconds.
+  path: Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx
+  artifactKey: Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx using Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb9339b4506082d06f8576b2eb8ff0b') in 0.004327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 32.881532 seconds.
+  path: Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx
+  artifactKey: Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx using Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aef11d02116661b11073f009c195d58') in 0.002523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 35.994541 seconds.
+  path: Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx
+  artifactKey: Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Kachujin G Rosales.fbx using Guid(f95f06e5936efa54a8ca64506a2da009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d0a1ad48795333648cf4eefe986730') in 0.002924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 3.117038 seconds.
+  path: Assets/AssetsThirdParty/Character/Materials
+  artifactKey: Guid(fc5a57f5754e2a146b4caf41062d5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Materials using Guid(fc5a57f5754e2a146b4caf41062d5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b879af99cfc4141cb770e2891fc2b2a9') in 0.000471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.679728 seconds.
+  path: Assets/AssetsThirdParty/Character/Materials/kachujin_MAT.mat
+  artifactKey: Guid(c57a673a8e7bfea4389c7bd66e035ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Materials/kachujin_MAT.mat using Guid(c57a673a8e7bfea4389c7bd66e035ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daec18b89d7bdbfe848b1d72cb0e8925') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 433.601819 seconds.
+  path: Assets/AssetsThirdParty/Character/Textures/Kachujin_diffuse.png
+  artifactKey: Guid(7fac5508d67d4f148a612b75ac61296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Textures/Kachujin_diffuse.png using Guid(7fac5508d67d4f148a612b75ac61296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c3faf81d189117abbad6b21606d0e9') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetsThirdParty/Character/Textures/Kachujin_specular.png
+  artifactKey: Guid(7e59031e8c05ee44ba2fba8426288c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Textures/Kachujin_specular.png using Guid(7e59031e8c05ee44ba2fba8426288c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa34ffb5401de6ecadd1b322faa7ed9') in 0.001880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/Character/Textures/Kachujin_normal.png
+  artifactKey: Guid(8dac512711b732e42871546e486d7e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Textures/Kachujin_normal.png using Guid(8dac512711b732e42871546e486d7e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4310509bf854040a62214d9c0a3939') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.575810 seconds.
+  path: Assets/Sun_Temple/Scenes
+  artifactKey: Guid(c973ee7d1be8d1e44a839b65579201c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Scenes using Guid(c973ee7d1be8d1e44a839b65579201c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3c68fdede6915e9f92a6425185b9a5') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.162414 seconds.
+  path: Assets/Sun_Temple/Scenes/DemoScene_PostProcessProfile.asset
+  artifactKey: Guid(78254f968cc460e408f81c76abc84db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Scenes/DemoScene_PostProcessProfile.asset using Guid(78254f968cc460e408f81c76abc84db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2cb9475733a726c3780619c8a8cc37') in 0.001056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.055173 seconds.
+  path: Assets/Sun_Temple/Scenes/DemoScene.unity
+  artifactKey: Guid(d8f213b28287d8b4dab42cf4a34f94e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Scenes/DemoScene.unity using Guid(d8f213b28287d8b4dab42cf4a34f94e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773edf3e7188e611969298ec6b59e14') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.426685 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Materials/Bgr_Clouds.mat
+  artifactKey: Guid(84113ffa45cc0f44b94c0a74bfc300a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Materials/Bgr_Clouds.mat using Guid(84113ffa45cc0f44b94c0a74bfc300a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f496f19d26aab8d48e7385ee6f67621c') in 0.001685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Sun_Temple/Content/Meshes/Main/Materials/Bgr_MountainBase.mat
+  artifactKey: Guid(7075449fbe03d514cafe312631196650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sun_Temple/Content/Meshes/Main/Materials/Bgr_MountainBase.mat using Guid(7075449fbe03d514cafe312631196650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2d8c780fc78e613dccefe3a1d7abf9') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.459853 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Tree_Mat_01_Small.mat
+  artifactKey: Guid(a7d8201203adece498d41c0b97b3cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Tree_Mat_01_Small.mat using Guid(a7d8201203adece498d41c0b97b3cf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791d05a6c6663ad54360add1f3f1407a') in 0.000817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Wheat_Mat_01.mat
+  artifactKey: Guid(3aca46e8ee6dda1459a54a1787458375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Wheat_Mat_01.mat using Guid(3aca46e8ee6dda1459a54a1787458375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e210a39649dee40f06e2fc8b5363d02') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Tree_Mat_03.mat
+  artifactKey: Guid(717bc4bc542b5124e8b1975a19174f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Tree_Mat_03.mat using Guid(717bc4bc542b5124e8b1975a19174f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762f63789f0cffd25c265ceb29c389dc') in 0.000606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/WildFlowers_02.mat
+  artifactKey: Guid(4e49147da4a67cc44b1f3f161cd45ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/WildFlowers_02.mat using Guid(4e49147da4a67cc44b1f3f161cd45ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c29923c76d26cbd075acbd149dd57c') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018503 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/WildFlowers_03.mat
+  artifactKey: Guid(8faed35c6ba97be4ebb721f872aa2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/WildFlowers_03.mat using Guid(8faed35c6ba97be4ebb721f872aa2e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cc442c3f95303d7fa3c99485eabad0') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityRepos\TestingNewFeatures\TestingNewFeatures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (0.9 MB). Loaded Objects now: 5764.
+Memory consumption went from 276.1 MB to 275.2 MB.
+Total: 2.689700 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.133400 ms MarkObjects: 2.023000 ms  DeleteObjects: 0.236800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SuntailStartDemo.cs: aec381a898f1132f783ec8d07552bff6 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/WindControllerInspector.cs: ffcbd2bdec79821cb78bf315ad22b2ed -> 71e3e289a3c0d8717bab29a0f92f9680
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PigmentMapGenerator.cs: fbdc54483d8b52a888e04d58f69f8122 -> a6a9ffde88d281a59e6f5d369932be51
+  custom:scripting/monoscript/fileName/PlayerInteractions.cs: 921173c276325f37ce4acdc79878feb9 -> 
+  custom:scripting/monoscript/fileName/AudioZoneControl.cs: df95cba9bcc651e8d8d1bd7cc1997830 -> 
+  custom:scripting/monoscript/fileName/PlayerController.cs: fb82b0b38d9ae1eda8f56af60b985673 -> 
+  custom:scripting/monoscript/fileName/FoliageBender.cs: bfac08b0454978e6a489b910400dbf60 -> 1ef92402b6e972a193912949375684b7
+  custom:scripting/monoscript/fileName/PigmentMapGeneratorInspector.cs: 2b454ad3232eae54649a8c019b293448 -> 202c9f1c431cacab910fb1d4e9b8f43b
+  custom:scripting/monoscript/fileName/FAE_Core.cs: 73da670256b1d14e5e0378d4e4092d3b -> bd165d49f4d69b30e5b09c6f35525b8a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LightCulling.cs: 911584665deb8f1c571d182f42cdcf48 -> 
+  custom:scripting/monoscript/fileName/MenuButton.cs: dd0a59a3ac3deebca0f453ac6d478243 -> 
+  custom:scripting/monoscript/fileName/FPSDisplay.cs: 4de2b1268e0d108618b876b31a439b05 -> 
+  custom:scripting/monoscript/fileName/TreeTrunkShaderGUI.cs: 3fc8292017ee7e2187fd9f1ffb4c9c9a -> b60abb076434277ba946db5fa32dc297
+  custom:scripting/monoscript/fileName/Door.cs: 7ec5f4b40a73daececc253df24365e41 -> 
+  custom:scripting/monoscript/fileName/GUIHelper.cs: 23c4162653852343f2c238fdcd13aad2 -> 8457d6cca729a5e8a1936590db94ce84
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/TerrainUVUtil.cs: abcd8ca1d67d05ba7a33a3ef326fe087 -> a264e4943c1a12dabe642d10a7eecdb2
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/LevelSelect.cs: 38031d38f73758be2135bbf9ce4ec761 -> 
+  custom:scripting/monoscript/fileName/PhysicsObject.cs: 6773de6d542de96ce4f4d9ded076ac4c -> 
+  custom:scripting/monoscript/fileName/TreeBranchShaderGUI.cs: 90a78f49146b08fd73a7db27215ad3fd -> b2ea61446a13d7aaa6ca11b694b1a940
+  custom:scripting/monoscript/fileName/Flythrough.cs: 24d0e5f7140d82299898a3a43472a429 -> 
+  custom:scripting/monoscript/fileName/CliffAppearanceInspector.cs: d442048bbacbbf694df1cbe2724c6dff -> 31b99076f442f5e3ea5c404d3089262f
+  custom:scripting/monoscript/fileName/FoliageShaderGUI.cs: c81c7f091f91a61dfd7aec3e672c1e9b -> 2ca4e020aaa9daef3a3a3da4a4b68b2a
+  custom:scripting/monoscript/fileName/WindController.cs: 5a41b9fd94d7c3ab008ca66a11656b18 -> 3607f65d6e193fb6e70110e2d30bbc9d
+  custom:scripting/monoscript/fileName/GrassShaderGUI.cs: db98c6e1a9ec3d6c581b92fbdcf21713 -> 9f887d4c19a9c386b5443b4e4897a56d
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CliffAppearance.cs: dba9da8464fbf0fdfa699d304f2ae7cb -> 4d0104a675cd7da82d185f69ea1f1f7e
+  custom:scripting/monoscript/fileName/HelpWindow.cs: 096c2eafe164f9eef7b0022d2d818251 -> bf7223ec3118aba7daf60957c40e31cf
+========================================================================
+Received Import Request.
+  Time since last request: 4.497156 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Branches_01.mat
+  artifactKey: Guid(a887d3f4e6ba4dd4cb0ff725b3784d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Branches_01.mat using Guid(a887d3f4e6ba4dd4cb0ff725b3784d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b132d01a9dc8143369e932619618649') in 0.015759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/CropField_01.mat
+  artifactKey: Guid(5482be4c6dd4bcf409b4237894b550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/CropField_01.mat using Guid(5482be4c6dd4bcf409b4237894b550a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63e1aebe84a3e40273c23c2602b373c') in 0.001123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Grass_Short_Mat_01.mat
+  artifactKey: Guid(cfa62292d336ccc4f876b90c76b968f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Grass_Short_Mat_01.mat using Guid(cfa62292d336ccc4f876b90c76b968f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a8dba60dc90f335cc2b79b04263ca0') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Clover_Flat_Mat_01.mat
+  artifactKey: Guid(14c1ce68458309d4e8f00caf14bb0c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Clover_Flat_Mat_01.mat using Guid(14c1ce68458309d4e8f00caf14bb0c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d167c51ee8250a6cd0f3625ed5ab94') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Flowers_Field_Variation.mat
+  artifactKey: Guid(519ca7996e0cd9e429b75b488b3b0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Flowers_Field_Variation.mat using Guid(519ca7996e0cd9e429b75b488b3b0e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a405422f2e1f4741792c1d1b9b2d9de') in 0.001165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Flowers_Plant_Mat_01.mat
+  artifactKey: Guid(6054a4120b905b54c850e61881908955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Flowers_Plant_Mat_01.mat using Guid(6054a4120b905b54c850e61881908955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ed51fb6850003ec9ab017032e3e82') in 0.001153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.947220 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/Env_CloudRing_Larger_01_Smooth_03.fbx
+  artifactKey: Guid(808d3d8b5942fae4ea185a4ab8467d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/Env_CloudRing_Larger_01_Smooth_03.fbx using Guid(808d3d8b5942fae4ea185a4ab8467d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14883cf658c4e777c20a99188a85707') in 0.001788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Bush_02.fbx
+  artifactKey: Guid(c46cbbfae79dcf845b5df7528890fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Bush_02.fbx using Guid(c46cbbfae79dcf845b5df7528890fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8f628d4cf4f13a4740cdd1e06bb3f3') in 0.001945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Bld_Windmill_01.fbx
+  artifactKey: Guid(e5d5f5aef9f2be54ba3635c6831a993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Bld_Windmill_01.fbx using Guid(e5d5f5aef9f2be54ba3635c6831a993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0d4a36ee970b34679e514729547755') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_CropField_Clump_02.fbx
+  artifactKey: Guid(4a8e8a38028d0004986346ff4104b6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_CropField_Clump_02.fbx using Guid(4a8e8a38028d0004986346ff4104b6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14593897d94d59b6e0d08703e51c8d85') in 0.001291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.139633 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Bld_Stone_Cabin_01.prefab
+  artifactKey: Guid(faa232351140d09468c55b9d5a0ec242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Bld_Stone_Cabin_01.prefab using Guid(faa232351140d09468c55b9d5a0ec242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c1534a6466f7d2af354e0c2e79dc04') in 0.001835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Fire_Tripod_01.prefab
+  artifactKey: Guid(c7144c40c33f3ff4a80577ffd7629ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Fire_Tripod_01.prefab using Guid(c7144c40c33f3ff4a80577ffd7629ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9b9949c57576af79c651060b710858') in 0.001295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Bucket_01.prefab
+  artifactKey: Guid(d7781497557b7904aa0f3af82aa5b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Bucket_01.prefab using Guid(d7781497557b7904aa0f3af82aa5b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f34bc0eff876da03fa001b301be6e97') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Bucket_02.prefab
+  artifactKey: Guid(db636ac1aaf06bf47921e0da33a2e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/Props/SM_Prop_Camp_Bucket_02.prefab using Guid(db636ac1aaf06bf47921e0da33a2e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ff5bbfad8fec2ceefca0d0eeee6293') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.924318 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/LOD_Cards/Card_Sunflower_01.mat
+  artifactKey: Guid(61c9705e6221a4f47b599a77d3f4bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/LOD_Cards/Card_Sunflower_01.mat using Guid(61c9705e6221a4f47b599a77d3f4bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5538adc11dbd983ca00cba48f6ff1a64') in 0.001032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/LOD_Cards/Card_Tree_Meadow_02.mat
+  artifactKey: Guid(8622936458b2b404fbb345a957376143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/LOD_Cards/Card_Tree_Meadow_02.mat using Guid(8622936458b2b404fbb345a957376143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341235d8842d59059fe07f017c9b3b7d') in 0.000769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.517471 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_ground_redclay_Aground_redclay_N2023054508611406.terrainlayer
+  artifactKey: Guid(8ac0228897cdb1848bea1f5a91a66832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_ground_redclay_Aground_redclay_N2023054508611406.terrainlayer using Guid(8ac0228897cdb1848bea1f5a91a66832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57f0ae93c7a2cfaebca60520636dc5e') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.487616 seconds.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Demo.unity using Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98c0c63e32f6a77a623e0b117784858') in 0.000338 seconds
+Number of updated asset objects reloaded before import = 8
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.981675 seconds.
+  path: Assets/AssetsThirdParty/Character/Materials/kachujin_MAT_.mat
+  artifactKey: Guid(f4827c3e38071924c9e16894d8619aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsThirdParty/Character/Materials/kachujin_MAT_.mat using Guid(f4827c3e38071924c9e16894d8619aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b59decf4eeb91cfc57e2d792b677dce') in 0.000768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.363790 seconds.
+  path: Assets/Scenes/Demo.unity
+  artifactKey: Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Demo.unity using Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4217d55895c36e0db365ade1c865b9d6') in 0.000345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.436321 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Meadow_Forest
+  artifactKey: Guid(512f2c3ac73bd1b4992ff84496a0316c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Meadow_Forest using Guid(512f2c3ac73bd1b4992ff84496a0316c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be436df3254b46c5b6bea0917daeb84') in 0.000336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.694094 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Swamp_Marshland
+  artifactKey: Guid(975723c6e4b68c14baeb651ccbb9cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Swamp_Marshland using Guid(975723c6e4b68c14baeb651ccbb9cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96ab43b59ce446871656ffc35ef14ab') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.628129 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle
+  artifactKey: Guid(1907f06e11eff1c419fb12bea4b9c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle using Guid(1907f06e11eff1c419fb12bea4b9c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a1fe23862697aca2578d99bbef7a57') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 59.578286 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(7cd0006989a12df4b9e629552abf9654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48ae801adef4fa2ba5412cb2edd644') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

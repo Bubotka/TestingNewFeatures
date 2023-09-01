@@ -104,6 +104,7 @@
               <e p="PlayerIdleState.cs" t="Include" />
               <e p="PlayerJumpState.cs" t="Include" />
               <e p="PlayerMoveState.cs" t="Include" />
+              <e p="PlayerSprintState.cs" t="Include" />
             </e>
           </e>
           <e p="Infrastructure" t="Include">

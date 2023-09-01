@@ -4,10 +4,10 @@ namespace CodeBase.Hero.States
 {
     public class PlayerMoveState : PlayerGroundedState
     {
-        private HeroLocomotion _heroLocomotion;
-        public PlayerMoveState(Hero hero,HeroAnimator heroAnimator,HeroLocomotion heroLocomotion, HeroStateMachine heroStateMachine) : base(hero,heroAnimator,heroStateMachine)
+        
+        public PlayerMoveState(Hero hero,HeroAnimator heroAnimator,HeroLocomotion heroLocomotion, HeroStateMachine heroStateMachine) : base(hero,heroAnimator,heroLocomotion,heroStateMachine)
         {
-            _heroLocomotion = heroLocomotion;
+            
         }
 
         public override void Enter()
@@ -18,21 +18,21 @@ namespace CodeBase.Hero.States
         public override void Update()
         {
             base.Update();
-            
-            if(heroAnimator.GetSpeedValue()<=0.01f&& hero.CharacterController.isGrounded&&!hero.InputService.IsJumpPressed())
-                heroStateMachine.ChangeState(hero.PlayerIdleState);
 
-            _heroLocomotion.Move();
-            _heroLocomotion.IsGrounded();
+            if(heroAnimator.GetSpeedValue()<=0.01f&& heroLocomotion.IsGrounded()&&!hero.InputService.IsJumpPressed())
+                heroStateMachine.ChangeState(hero.PlayerIdleState);
             
-            Debug.Log("Jump " + _heroLocomotion.IsGrounded());
+            if(heroLocomotion.IsGrounded() && hero.InputService.IsSprintPress())
+                heroStateMachine.ChangeState(hero.PlayerSprintState);
+
+            heroLocomotion.Move();
 
             heroAnimator.PlayLocomotion();
         }
 
         public override void Exit()
         {
-            heroAnimator.StopLocomotion();
+           
         }
     }
 }

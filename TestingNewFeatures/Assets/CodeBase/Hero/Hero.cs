@@ -9,12 +9,10 @@ namespace CodeBase.Hero
     public class Hero : MonoBehaviour
     {
         [SerializeField] private Animator _animator;
-
         [SerializeField] private CharacterController _characterController;
-        public CharacterController CharacterController => _characterController;
-
         [SerializeField] private float _turnSmoothTime;
         [SerializeField] private float _moveSpeed;
+        [SerializeField] private float _sprintMoveSpeed;
         [SerializeField] private float _jumpReduceVelocitySpeed;
         
         [Range(0.75f,1.25f)]
@@ -32,6 +30,7 @@ namespace CodeBase.Hero
 
         public PlayerIdleState PlayerIdleState { get; set; }
         public PlayerMoveState PlayerMoveState { get; set; }
+        public PlayerSprintState PlayerSprintState { get; set; }
         public PlayerJumpState PlayerJumpState { get; set; }
         public PlayerAirState PlayerAirState { get; set; }
 
@@ -48,7 +47,7 @@ namespace CodeBase.Hero
 
         private void Awake()
         {
-            _heroLocomotion = new HeroLocomotion(_characterController, _turnSmoothTime, _moveSpeed, JumpVelocity,_jumpReduceVelocitySpeed, _groundCheckDistance, _inputService, transform);
+            _heroLocomotion = new HeroLocomotion(_characterController, _turnSmoothTime, _moveSpeed, _sprintMoveSpeed,JumpVelocity,_jumpReduceVelocitySpeed, _groundCheckDistance, _inputService, transform);
             _heroAnimator = new HeroAnimator(_inputService, _animator);
 
             _heroStateMachine = new HeroStateMachine();
@@ -57,6 +56,7 @@ namespace CodeBase.Hero
 
             PlayerIdleState = new PlayerIdleState(this, _heroAnimator,_heroLocomotion, _heroStateMachine, _inputService);
             PlayerMoveState = new PlayerMoveState(this, _heroAnimator, _heroLocomotion, _heroStateMachine);
+            PlayerSprintState = new PlayerSprintState(this, _heroAnimator, _heroLocomotion, _heroStateMachine);
             PlayerJumpState = new PlayerJumpState(this, _heroAnimator, _heroLocomotion, _heroStateMachine);
             PlayerAirState = new PlayerAirState(this, _heroAnimator,_heroLocomotion, _heroStateMachine);
 

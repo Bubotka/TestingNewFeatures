@@ -8,7 +8,9 @@ namespace CodeBase.Hero
         private static readonly int SpeedHash = Animator.StringToHash("Speed");
         private static readonly int IdleHash = Animator.StringToHash("Idle");
         private static readonly int JumpHash = Animator.StringToHash("Jump");
+        private static readonly int SprintHash = Animator.StringToHash("Sprint");
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
+        private static readonly int IsAirHash = Animator.StringToHash("IsAir");
         private static readonly int AttackHash = Animator.StringToHash("Attack");
         private static readonly int HitHash = Animator.StringToHash("Hit");
         private static readonly int DieHash = Animator.StringToHash("Die");
@@ -31,12 +33,18 @@ namespace CodeBase.Hero
         public void StopLocomotion() =>
             _animator.SetFloat(SpeedHash, 0);
 
+        public void SetSprint(bool value) => 
+            _animator.SetBool(SprintHash,value);
+
+        public void PlayAir() =>
+            _animator.SetTrigger(IsAirHash);
+
         public void PlayAttack() =>
             _animator.SetTrigger(AttackHash);
-        
+
         public void PlayJump() =>
             _animator.SetTrigger( JumpHash);
-        
+
         public void PlayJumpFall() =>
             _animator.SetTrigger( IsGroundedHash);
 

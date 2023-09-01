@@ -4,8 +4,11 @@ namespace CodeBase.Hero.States
 {
     public class PlayerGroundedState : PlayerBaseState
     {
-        public PlayerGroundedState(Hero hero, HeroAnimator heroAnimator, HeroStateMachine heroStateMachine) : base(hero, heroAnimator, heroStateMachine)
+        protected HeroLocomotion heroLocomotion;
+
+        public PlayerGroundedState(Hero hero,HeroAnimator heroAnimator, HeroLocomotion heroLocomotion, HeroStateMachine heroStateMachine) : base(hero, heroAnimator, heroStateMachine)
         {
+            this.heroLocomotion = heroLocomotion;
         }
 
         public override void Enter()
@@ -15,8 +18,11 @@ namespace CodeBase.Hero.States
 
         public override void Update()
         {
-            if(hero.CharacterController.isGrounded&& hero.InputService.IsJumpPressed())
+            if(heroLocomotion.IsGrounded() && hero.InputService.IsJumpPressed())
                 heroStateMachine.ChangeState(hero.PlayerJumpState);
+
+            else if(!heroLocomotion.IsGrounded())
+                heroStateMachine.ChangeState(hero.PlayerAirState);
         }
 
         public override void Exit()

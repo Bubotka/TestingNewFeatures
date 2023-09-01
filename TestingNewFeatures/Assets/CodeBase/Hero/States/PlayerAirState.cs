@@ -14,14 +14,15 @@ namespace CodeBase.Hero.States
 
         public override void Enter()
         {
-            Debug.Log("AirState");
+            if(heroStateMachine.LastState!=hero.PlayerJumpState)
+                heroAnimator.PlayAir();
         }
 
         public override void Update()
         {
             _heroLocomotion.Inertia();
             
-            if (hero.CharacterController.isGrounded)
+            if (_heroLocomotion.IsGrounded())
             {
                 heroStateMachine.ChangeState(hero.PlayerIdleState);
             }
@@ -31,6 +32,8 @@ namespace CodeBase.Hero.States
         {
             heroAnimator.PlayJumpFall();
             heroAnimator.StopLocomotion();
+            
+            _heroLocomotion.MovementVector = Vector3.zero;
         }
     }
 }

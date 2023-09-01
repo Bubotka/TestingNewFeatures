@@ -15,12 +15,14 @@ namespace CodeBase.Hero
 
         private float _turnSmoothTime = 0.2f;
         private float _moveSpeed;
+        private readonly float _sprintMoveSpeed;
+        private float _currentMoveSpeed;
         private float _jumpReduceVelocitySpeed;
         private readonly float _groundCheckDistance;
-        
-        private Vector3 _movementVector;
 
-        public HeroLocomotion(CharacterController characterController, float turnSmoothTime, float moveSpeed,
+        public Vector3 MovementVector { get;  set; }
+
+        public HeroLocomotion(CharacterController characterController, float turnSmoothTime, float moveSpeed,float sprintMoveSpeed,
             float jumpVelocity, float jumpReduceVelocitySpeed,float groundCheckDistance, IInputService inputService, Transform heroTransform)
         {
             _characterController = characterController;
@@ -29,14 +31,17 @@ namespace CodeBase.Hero
             _camera = Camera.main;
             _heroTransform = heroTransform;
             _moveSpeed = moveSpeed;
+            _sprintMoveSpeed = sprintMoveSpeed;
             JumpVelocity = jumpVelocity;
             _jumpReduceVelocitySpeed = jumpReduceVelocitySpeed;
             _groundCheckDistance = groundCheckDistance;
+
+            _currentMoveSpeed = moveSpeed;
         }
 
         public void Move()
         {
-            _movementVector = Vector3.zero;
+            MovementVector = Vector3.zero;
 
             if (_inputService.ReadMoveValue().sqrMagnitude > 0.1)
             {
@@ -46,10 +51,10 @@ namespace CodeBase.Hero
                 float angle = SmoothAngle(targetAngle);
                 _heroTransform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-                _movementVector = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                MovementVector = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             }
 
-            _characterController.Move(_movementVector * _moveSpeed * Time.deltaTime);
+            _characterController.Move(MovementVector * _currentMoveSpeed * Time.deltaTime);
         }
 
         public void Jump()
@@ -61,12 +66,22 @@ namespace CodeBase.Hero
             jumpVector.y += Mathf.Sqrt(JumpVelocity * -2 * Physics.gravity.y);
 
             if (jumpVector.y >= 0)
-                _characterController.Move((_movementVector * _moveSpeed + jumpVector) * Time.deltaTime);
+                _characterController.Move((MovementVector * _moveSpeed + jumpVector) * Time.deltaTime);
+        }
+
+        public void Sprint()
+        {
+            _currentMoveSpeed = _sprintMoveSpeed;
+        }
+
+        public void SetDefaultMoveSpeed()
+        {
+            _currentMoveSpeed = _moveSpeed;
         }
 
         public void Inertia()
         {
-            _characterController.Move(_movementVector * _moveSpeed * Time.deltaTime);
+            _characterController.Move(MovementVector * _currentMoveSpeed * Time.deltaTime);
         }
 
         public bool IsGrounded()

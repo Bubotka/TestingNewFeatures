@@ -6,5 +6,6 @@ namespace CodeBase.Infrastructure.Services
     {
         Vector2 ReadMoveValue();
         bool IsJumpPressed();
+        bool IsSprintPress();
     }
 }

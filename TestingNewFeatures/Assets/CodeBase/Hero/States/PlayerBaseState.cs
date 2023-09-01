@@ -7,7 +7,7 @@ namespace CodeBase.Hero.States
 
         protected HeroStateMachine heroStateMachine;
 
-        protected PlayerBaseState(Hero hero,HeroAnimator heroAnimator, HeroStateMachine heroStateMachine)
+        protected PlayerBaseState(Hero hero, HeroAnimator heroAnimator, HeroStateMachine heroStateMachine)
         {
             this.hero = hero;
             this.heroAnimator = heroAnimator;

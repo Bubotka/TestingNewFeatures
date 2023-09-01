@@ -20,9 +20,6 @@ namespace CodeBase.Hero.States
         public override void Update()
         { 
             _heroLocomotion.Jump();
-            _heroLocomotion.IsGrounded();
-            
-            Debug.Log("Jump " + _heroLocomotion.IsGrounded());
 
             if (_heroLocomotion.JumpVelocity <= 0)
             {

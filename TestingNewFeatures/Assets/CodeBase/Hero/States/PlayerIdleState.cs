@@ -5,13 +5,11 @@ namespace CodeBase.Hero.States
 {
     public class PlayerIdleState : PlayerGroundedState
     {
-        private readonly HeroLocomotion _heroLocomotion;
         private IInputService _inputService;
         
         public PlayerIdleState(Hero hero, HeroAnimator heroAnimator, HeroLocomotion heroLocomotion,
-            HeroStateMachine heroStateMachine, IInputService inputService) : base(hero, heroAnimator, heroStateMachine)
+            HeroStateMachine heroStateMachine, IInputService inputService) : base(hero, heroAnimator, heroLocomotion,heroStateMachine)
         {
-            _heroLocomotion = heroLocomotion;
             _inputService = inputService;
         }
 
@@ -19,17 +17,14 @@ namespace CodeBase.Hero.States
         {
             Debug.Log("IdleState");
             heroAnimator.SetIdle(true);
+            heroAnimator.StopLocomotion();
         }
 
         public override void Update()
         {
             base.Update();
 
-            _heroLocomotion.IsGrounded();
-            
-            Debug.Log("Jump "+_heroLocomotion.IsGrounded());
-            
-            if (_inputService.ReadMoveValue().sqrMagnitude>0.1f) 
+            if (_inputService.ReadMoveValue().sqrMagnitude>0.1f&&heroLocomotion.IsGrounded()) 
                 heroStateMachine.ChangeState(hero.PlayerMoveState);
         }
 

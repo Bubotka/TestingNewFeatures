@@ -37,7 +37,6 @@ namespace CodeBase.Hero.States
 
         public override void Exit()
         {
-            heroLocomotion.SetDefaultMoveSpeed();
             heroAnimator.SetSprint(false);
         }
     }

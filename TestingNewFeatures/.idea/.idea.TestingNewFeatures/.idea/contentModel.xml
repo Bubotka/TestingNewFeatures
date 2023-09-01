@@ -91,6 +91,24 @@
           </e>
         </e>
         <e p="CodeBase" t="Include">
+          <e p="CreatedAssets" t="Include">
+            <e p="BasicLocomotion" t="Include">
+              <e p="Hero.cs" t="Include" />
+              <e p="HeroAnimator.cs" t="Include" />
+              <e p="HeroGravity.cs" t="Include" />
+              <e p="HeroLocomotion.cs" t="Include" />
+              <e p="HeroStateMachine.cs" t="Include" />
+              <e p="States" t="Include">
+                <e p="PlayerAirState.cs" t="Include" />
+                <e p="PlayerBaseState.cs" t="Include" />
+                <e p="PlayerGroundedState.cs" t="Include" />
+                <e p="PlayerIdleState.cs" t="Include" />
+                <e p="PlayerJumpState.cs" t="Include" />
+                <e p="PlayerMoveState.cs" t="Include" />
+                <e p="PlayerSprintState.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Hero" t="Include">
             <e p="Hero.cs" t="Include" />
             <e p="HeroAnimator.cs" t="Include" />

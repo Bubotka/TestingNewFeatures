@@ -21,6 +21,7 @@ namespace CodeBase.Hero.States
         public override void Update()
         {
             _heroLocomotion.Inertia();
+            _heroLocomotion.AccelerationOfFreeFall();
             
             if (_heroLocomotion.IsGrounded())
             {
@@ -33,6 +34,7 @@ namespace CodeBase.Hero.States
             heroAnimator.PlayJumpFall();
             heroAnimator.StopLocomotion();
             
+            _heroLocomotion.ResetGravity();
             _heroLocomotion.MovementVector = Vector3.zero;
         }
     }

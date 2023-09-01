@@ -19,6 +19,7 @@ namespace CodeBase.Hero
         private float _currentMoveSpeed;
         private float _jumpReduceVelocitySpeed;
         private readonly float _groundCheckDistance;
+        private Vector3 _gravity = new Vector3(0,-5,0);
 
         public Vector3 MovementVector { get;  set; }
 
@@ -52,6 +53,8 @@ namespace CodeBase.Hero
                 _heroTransform.rotation = Quaternion.Euler(0f, angle, 0f);
 
                 MovementVector = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+
+                MovementVector += Physics.gravity * Time.deltaTime;
             }
 
             _characterController.Move(MovementVector * _currentMoveSpeed * Time.deltaTime);
@@ -66,7 +69,7 @@ namespace CodeBase.Hero
             jumpVector.y += Mathf.Sqrt(JumpVelocity * -2 * Physics.gravity.y);
 
             if (jumpVector.y >= 0)
-                _characterController.Move((MovementVector * _moveSpeed + jumpVector) * Time.deltaTime);
+                _characterController.Move((MovementVector * _currentMoveSpeed + jumpVector) * Time.deltaTime);
         }
 
         public void Sprint()
@@ -83,6 +86,15 @@ namespace CodeBase.Hero
         {
             _characterController.Move(MovementVector * _currentMoveSpeed * Time.deltaTime);
         }
+
+        public void AccelerationOfFreeFall()
+        {
+            _gravity += Physics.gravity * Time.deltaTime;
+            _characterController.Move(_gravity * Time.deltaTime);
+        }
+
+        public void ResetGravity() =>
+            _gravity = new Vector3(0, -5, 0);
 
         public bool IsGrounded()
         {

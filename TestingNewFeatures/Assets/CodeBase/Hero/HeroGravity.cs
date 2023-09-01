@@ -13,7 +13,7 @@ namespace CodeBase.Hero
         private void Update()
         {
             if(!_characterController.isGrounded)
-                _characterController.Move(Physics.gravity *_gravityValue* Time.deltaTime);
+                _characterController.Move(Physics.gravity*Time.deltaTime);
         }
     }
 }

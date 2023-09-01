@@ -12,6 +12,7 @@ namespace CodeBase.Hero.States
 
         public override void Enter()
         {
+            heroLocomotion.SetDefaultMoveSpeed();
             Debug.Log("MoveState");
         }
 

@@ -19,21 +19,24 @@ namespace CodeBase.Hero.States
         public override void Update()
         {
             base.Update();
+            
+            heroAnimator.PlayLocomotion();
 
             if(heroAnimator.GetSpeedValue()<=0.01f&& heroLocomotion.IsGrounded()&&!hero.InputService.IsJumpPressed())
                 heroStateMachine.ChangeState(hero.PlayerIdleState);
-            
+
             if(heroLocomotion.IsGrounded() && hero.InputService.IsSprintPress())
                 heroStateMachine.ChangeState(hero.PlayerSprintState);
+            
+            if(heroStateMachine.CurrentState!=hero.PlayerAttackState&& heroLocomotion.IsGrounded()&& hero.InputService.IsAttackPressed())
+                heroStateMachine.ChangeState(hero.PlayerAttackState);
 
             heroLocomotion.Move();
-
-            heroAnimator.PlayLocomotion();
         }
 
         public override void Exit()
         {
-           
+           heroAnimator.StopLocomotion();
         }
     }
 }

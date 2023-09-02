@@ -12,6 +12,7 @@ namespace CodeBase.Hero
         private static readonly int IsGroundedHash = Animator.StringToHash("IsGrounded");
         private static readonly int IsAirHash = Animator.StringToHash("IsAir");
         private static readonly int AttackHash = Animator.StringToHash("Attack");
+        private static readonly int ComboCounterHash = Animator.StringToHash("ComboCounter");
         private static readonly int HitHash = Animator.StringToHash("Hit");
         private static readonly int DieHash = Animator.StringToHash("Die");
 
@@ -23,6 +24,8 @@ namespace CodeBase.Hero
             _inputService = inputService;
             _animator = animator;
         }
+
+        #region Locomotion
 
         public float GetSpeedValue() => 
             _animator.GetFloat(SpeedHash);
@@ -36,17 +39,31 @@ namespace CodeBase.Hero
         public void SetSprint(bool value) => 
             _animator.SetBool(SprintHash,value);
 
+        #endregion
+
+        #region Attack
+
+        public void SetAttack(bool value) =>
+            _animator.SetBool(AttackHash,value);
+
+        public void SetComboCounter(int value) => 
+            _animator.SetInteger(ComboCounterHash,value);
+
+        #endregion
+
+        #region Jump
+
         public void PlayAir() =>
             _animator.SetTrigger(IsAirHash);
-
-        public void PlayAttack() =>
-            _animator.SetTrigger(AttackHash);
 
         public void PlayJump() =>
             _animator.SetTrigger( JumpHash);
 
         public void PlayJumpFall() =>
             _animator.SetTrigger( IsGroundedHash);
+
+        #endregion
+
 
         public void PlayHit() =>
             _animator.SetTrigger(HitHash);

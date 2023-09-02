@@ -22,10 +22,10 @@ namespace CodeBase.Hero
 
         private HeroAnimator _heroAnimator;
         private HeroLocomotion _heroLocomotion;
+        private HeroAttack.HeroAttack _heroAttack;
 
         private HeroStateMachine _heroStateMachine;
-
-
+        
         #region States
 
         public PlayerIdleState PlayerIdleState { get; set; }
@@ -33,11 +33,14 @@ namespace CodeBase.Hero
         public PlayerSprintState PlayerSprintState { get; set; }
         public PlayerJumpState PlayerJumpState { get; set; }
         public PlayerAirState PlayerAirState { get; set; }
+        public PlayerAttackState PlayerAttackState { get; set; }
 
         #endregion
 
         public IInputService InputService => _inputService;
         private IInputService _inputService;
+
+        public bool TriggerCalled;
 
         [Inject]
         public void Construct(IInputService inputService)
@@ -49,6 +52,7 @@ namespace CodeBase.Hero
         {
             _heroLocomotion = new HeroLocomotion(_characterController, _turnSmoothTime, _moveSpeed, _sprintMoveSpeed,JumpVelocity,_jumpReduceVelocitySpeed, _groundCheckDistance, _inputService, transform);
             _heroAnimator = new HeroAnimator(_inputService, _animator);
+            _heroAttack = new HeroAttack.HeroAttack();
 
             _heroStateMachine = new HeroStateMachine();
 
@@ -59,6 +63,7 @@ namespace CodeBase.Hero
             PlayerSprintState = new PlayerSprintState(this, _heroAnimator, _heroLocomotion, _heroStateMachine);
             PlayerJumpState = new PlayerJumpState(this, _heroAnimator, _heroLocomotion, _heroStateMachine);
             PlayerAirState = new PlayerAirState(this, _heroAnimator,_heroLocomotion, _heroStateMachine);
+            PlayerAttackState = new PlayerAttackState(this, _heroAnimator,_heroAttack,_heroLocomotion, _heroStateMachine, _inputService);
 
             #endregion
         }
@@ -72,5 +77,9 @@ namespace CodeBase.Hero
         {
             _heroStateMachine.CurrentState.Update();
         }
+
+
+        public void AnimationFinished() => 
+            TriggerCalled = true;
     }
 }

@@ -111,12 +111,18 @@
           </e>
           <e p="Hero" t="Include">
             <e p="Hero.cs" t="Include" />
+            <e p="HeroAnimationTriggers.cs" t="Include" />
             <e p="HeroAnimator.cs" t="Include" />
-            <e p="HeroGravity.cs" t="Include" />
-            <e p="HeroLocomotion.cs" t="Include" />
+            <e p="HeroAttack" t="Include">
+              <e p="HeroAttack.cs" t="Include" />
+            </e>
+            <e p="HeroMove" t="Include">
+              <e p="HeroLocomotion.cs" t="Include" />
+            </e>
             <e p="HeroStateMachine.cs" t="Include" />
             <e p="States" t="Include">
               <e p="PlayerAirState.cs" t="Include" />
+              <e p="PlayerAttackState.cs" t="Include" />
               <e p="PlayerBaseState.cs" t="Include" />
               <e p="PlayerGroundedState.cs" t="Include" />
               <e p="PlayerIdleState.cs" t="Include" />

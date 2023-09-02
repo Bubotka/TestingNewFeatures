@@ -19,6 +19,9 @@ namespace CodeBase.Infrastructure.Services
         public bool IsJumpPressed() => 
             _playerInput.Player.Jump.triggered;
 
+        public bool IsAttackPressed() => 
+            _playerInput.Player.Attack.triggered;
+
         public bool IsSprintPress() =>
             _playerInput.Player.Sprint.inProgress;
     }

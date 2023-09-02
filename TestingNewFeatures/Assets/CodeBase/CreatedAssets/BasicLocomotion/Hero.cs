@@ -38,6 +38,8 @@ namespace CodeBase.CreatedAssets.BasicLocomotion
         public IInputService InputService => _inputService;
         private IInputService _inputService;
 
+        public bool TriggerCalled { get; private set; }
+
         [Inject]
         public void Construct(IInputService inputService)
         {

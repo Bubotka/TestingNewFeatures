@@ -28,6 +28,9 @@ namespace CodeBase.Hero.States
 
             if (_inputService.ReadMoveValue().sqrMagnitude>0.1f&&heroLocomotion.IsGrounded()) 
                 heroStateMachine.ChangeState(hero.PlayerMoveState);
+            
+            if(_inputService.IsAttackPressed()&& heroLocomotion.IsGrounded())
+                heroStateMachine.ChangeState(hero.PlayerAttackState);
         }
 
         public override void Exit()

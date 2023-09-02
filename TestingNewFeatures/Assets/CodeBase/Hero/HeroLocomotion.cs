@@ -60,6 +60,9 @@ namespace CodeBase.Hero
             _characterController.Move(MovementVector * _currentMoveSpeed * Time.deltaTime);
         }
 
+        public void Gravity() => 
+            _characterController.Move(_gravity * Time.deltaTime);
+
         public void Jump()
         {
             Vector3 jumpVector = Vector3.zero;

@@ -23,6 +23,8 @@ namespace CodeBase.Hero.States
         public override void Update()
         {
             base.Update();
+            
+            heroLocomotion.Gravity();
 
             if (_inputService.ReadMoveValue().sqrMagnitude>0.1f&&heroLocomotion.IsGrounded()) 
                 heroStateMachine.ChangeState(hero.PlayerMoveState);

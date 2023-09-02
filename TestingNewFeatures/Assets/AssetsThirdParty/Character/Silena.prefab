@@ -2062,7 +2062,6 @@ GameObject:
   - component: {fileID: 7957983096386836273}
   - component: {fileID: 4557076845770348637}
   - component: {fileID: 822372043457093967}
-  - component: {fileID: 4831316433526154747}
   - component: {fileID: 3405475870423662716}
   m_Layer: 0
   m_Name: Silena
@@ -2088,7 +2087,7 @@ Transform:
   - {fileID: 2905142338202955853}
   - {fileID: 8098576810351776254}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9117125350442097166
 MonoBehaviour:
@@ -2363,22 +2362,10 @@ MonoBehaviour:
   _characterController: {fileID: 3405475870423662716}
   _turnSmoothTime: 0.1
   _moveSpeed: 4
+  _sprintMoveSpeed: 0
   _jumpReduceVelocitySpeed: 10
+  _groundCheckDistance: 0
   JumpVelocity: 6
---- !u!114 &4831316433526154747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914222430671414044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c677befaaba34569ae18edc54107e291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _characterController: {fileID: 3405475870423662716}
-  _gravityValue: 0.534
 --- !u!143 &3405475870423662716
 CharacterController:
   m_ObjectHideFlags: 0
